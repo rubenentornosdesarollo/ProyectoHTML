@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="encoding" charset="utf-8" />
+    <title>Web para conocer un poco mas a nuestros peludos amigos</title>
+    <meta name="author" content="Ruben Almarcha Obon" />
+    <meta name="description" content="¿A qué esperas para aprender más sobre tu mascota o el mundo animal?">
+    <meta name="keywords"
+        content="animales, cuidados, alimentacion, importancia, perro, gato, mamifero, pajaro, huevos" />
+    <meta name="organization" content="IES La Senia" />
+    <meta name="lang" content="es-ES" />
+
+    <!-- CSS y icono pagina -->
+    <link href="css/alim.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="img/frutality-fruta_platano.ico">
+
+
+    <!-- Scripts simples buscados en internet de internet -->
+    <!-- Bienvenida y despedida de la pagina -->
+    <script>
+        window.onload = function () { alert('BIENVENIDO A ESTA PAGINA WEB'); }
+        window.onunload = function () { alert('VUELVE EN CUALQUIER MOMENTO'); }
+    </script>
+
+    <!-- Contador de visitas random -->
+    <script>
+        var ran
+        ran = Math.round(Math.random() * 50000)
+        document.write("Bienvenido, visitante " + ran + " a esta página.")
+    </script>
+
+
+</head>
+
+<body>
+
+    <!-- Contenedor principal -->
+    <div class="main">
+
+        <!-- Menu TOP -->
+        <div class="menu">
+
+            <!-- Imagen derecha del menu -->
+            <div class="imagenM">
+                <a href="index.html"><img src="img/gifi.gif" alt=""></a>
+            </div>
+
+            <div class="menu">
+
+                <!-- Mal formado, pongo esa combinacion para poder centrar el texto -->
+                <div class="desplegable">
+                    <button
+                        class="desple">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INICIO<a
+                            href="/index.html"></a></button>
+
+                </div>
+
+                <!-- Botones desplegables -->
+                <div class="desplegable">
+                    <button class="desple">CONTACTO &darr;</button>
+                    <div class="desple-cont">
+                        <a href="ubi.html">¿Donde estamos?</a>
+                        <a href="form.html">Formulario Contacto</a>
+                    </div>
+                </div>
+
+                <div class="desplegable">
+                    <button class="desple">ENLACES &darr;</button>
+                    <div class="desple-cont">
+                        <a href="https://elpais.com/noticias/animales/" target="_blank">Noticias</a>
+                        <a href="alimentacion.html">Alimentacion</a>
+                        <a href="https://madridsalud.es/cuidados-basicos-para-los-animales-de-compania-perros-y-gatos/"
+                            target="_blank">Cuidados</a>
+                        <a href="entre.html">Entretenimiento</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Imagen izquierda del menu -->
+            <div class="imagenM1">
+                <a href="index.html"><img src="img/gifi.gif" alt=""></a>
+            </div>
+
+        </div>
+
+        <!-- Cuerpo -->
+
+        <!-- Tabla -->
+        <div class="cuerpo">
+            <div class="tablas">
+                <div class="prro">
+                    <h1> Tabla para PERROS </h1>
+                    <table border="1px">
+
+                        <!-- Primera fila -->
+                        <tr>
+                            <th colspan="3"> Racion Diaria (Tazas/Gramos) </th>
+                        </tr>
+
+                        <!-- Segunda fila -->
+                        <tr>
+                            <td> Peso </td>
+                            <td> Gramos </td>
+                            <td> Cantidad </td>
+                        </tr>
+
+                        <!-- Tercera fila -->
+                        <tr>
+                            <td> 1-3 kg </td>
+                            <td> 50-90 g </td>
+                            <td> 1/2 a 1 taza </td>
+                        </tr>
+
+                        <!-- Cuarta fila -->
+                        <tr>
+                            <td> 3-5 kg </td>
+                            <td> 90-120 g </td>
+                            <td> 1 a 11/4 taza </td>
+                        </tr>
+
+                        <!-- Quinta fila -->
+                        <tr>
+                            <td> 5-10 kg </td>
+                            <td> 120-190 g </td>
+                            <td> 11/4 a 13/4 taza </td>
+                        </tr>
+
+                        <!-- Sexta fila -->
+                        <tr>
+                            <td> 10-15 kg </td>
+                            <td> 190-260 kg </td>
+                            <td> 13/4 a 21/2 taza </td>
+                        </tr>
+
+                        <!-- Septima fila -->
+                        <tr>
+                            <td> 15-20 kg </td>
+                            <td> 260-310 kg </td>
+                            <td> 21/2 a 3 taza </td>
+                        </tr>
+
+                        <!-- Octava fila -->
+                        <tr>
+                            <td> 30-40 kg </td>
+                            <td> 310-410 kg </td>
+                            <td> 3 a 4 taza </td>
+                        </tr>
+
+                        <!-- Novena fila -->
+                        <tr>
+                            <td> 40-50 kg </td>
+                            <td> 310-410 kg </td>
+                            <td> 4 a 4 4/3 taza </td>
+                        </tr>
+
+                        <!-- Decima fila -->
+                        <tr>
+                            <td> 50-60 kg </td>
+                            <td> 410-500 kg </td>
+                            <td> 4 4/3 a 5 1/2 taza </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="gto">
+                    <h1> Tabla para GATOS </h1>
+                    <table border="1px">
+
+                        <!-- Primera fila -->
+                        <tr>
+                            <th colspan="3"> Racion Diaria (Tazas/Gramos) </th>
+                        </tr>
+
+                        <!-- Segunda fila -->
+                        <tr>
+                            <td> Peso </td>
+                            <td> Gramos </td>
+                            <td> Cantidad </td>
+                        </tr>
+
+                        <!-- Tercera fila -->
+                        <tr>
+                            <td> 1-3 kg </td>
+                            <td> 30 g </td>
+                            <td> 1 taza </td>
+                        </tr>
+
+                        <!-- Cuarta fila -->
+                        <tr>
+                            <td> 2 kg </td>
+                            <td> 60 g </td>
+                            <td> 1/2 taza </td>
+                        </tr>
+
+                        <!-- Quinta fila -->
+                        <tr>
+                            <td> 3 kg </td>
+                            <td> 90 g </td>
+                            <td> 1-2 taza </td>
+                        </tr>
+
+                        <!-- Sexta fila -->
+                        <tr>
+                            <td> 4 kg </td>
+                            <td> 120 g </td>
+                            <td> 2/5 taza </td>
+                        </tr>
+
+                        <!-- Septima fila -->
+                        <tr>
+                            <td> 5 kg </td>
+                            <td> 150 g </td>
+                            <td> 3 taza </td>
+                        </tr>
+
+                        <!-- Octava fila -->
+                        <tr>
+                            <td> 7 kg </td>
+                            <td> 210 g </td>
+                            <td> 4 taza </td>
+                        </tr>
+
+                        <!-- Novena fila -->
+                        <tr>
+                            <td> 9 kg </td>
+                            <td> 270 g </td>
+                            <td> 5.5 taza </td>
+                        </tr>
+
+                        <!-- Decima fila -->
+                        <tr>
+                            <td> 10 kg </td>
+                            <td> 300 g </td>
+                            <td> 6 taza </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- Mensaje parpadeante -->
+                <div class="rijof">
+                    <script>
+                        window.setInterval(BlinkIt, 500);
+                        var color = "red";
+                        function BlinkIt() {
+                            var blink = document.getElementById("blink");
+                            color = (color == "#ffffff") ? "red" : "#ffffff";
+                            blink.style.color = color;
+                            blink.style.fontSize = '36px';
+                        }
+                    </script>
+                    <div id="blink">AVISO!: PRONTO HABRÁ MAS INF. SEGUIMOS TRABAJANDO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+
+            <!-- Script que te dice el dia actual -->
+            <div id="fechahoy">
+                <script>
+                    var d = new Date(); var month = new Array(12); month[0] = 'Enero'; month[1] = 'Febrero'; month[2] = 'Marzo'; month[3] = 'Abril'; month[4] = 'Mayo'; month[5] = 'Junio'; month[6] = 'Julio'; month[7] = 'Agosto'; month[8] = 'Septiembre'; month[9] = 'Octubre'; month[10] = 'Noviembre'; month[11] = 'Diciembre'; var todaysDate = +d.getDate() + ' de ' + month[d.getUTCMonth()] + ' del ' + d.getUTCFullYear();
+                    document.getElementById('fechahoy').innerHTML = 'Hoy es: ' + todaysDate;
+                </script>
+            </div>
+
+            <!-- Listas con enlaces a los documentos internos -->
+            <div>
+                <ul class="info"> <span> Mas informacion </span>
+                    <li><a href="javascript:if (confirm('¿Nos dejas robarte todos los datos privados para venderlos a la mafia china...?')) 
+                        {parent.location='index.html';};">Privacidad</a></li>
+                    <li><a href="javascript:if (confirm('¿Aceptas que todo lo que te pase mientras estas en esta pagina es culpa tuya...?')) 
+                        {parent.location='index.html';};">Legal</a></li>
+                    <li><a href="javascript:if (confirm('Solo si no llevan pasas...')) 
+                        {parent.location='index.html';};">Cookies</a></li>
+                    <li><a href="ubi.html">Mapa del sitio</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul class="info"> <span>Contacto</span>
+                    <li><a href="ubi.html">Sede</a></li>
+                    <li><a href="ubi.html">Telefonos de contacto</a></li>
+                    <li><a href="ubi.html">Correo</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+</body>
+
+</html>
