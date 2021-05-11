@@ -1,3 +1,3 @@
 # ProyectoHTML
 
-Dentro de la carpeta hay otro README con diferente informacion relaciona al proyecto
+Dentro de la carpeta hay otro README con diferente información MUY IMPORTANTE relacionada al proyecto
