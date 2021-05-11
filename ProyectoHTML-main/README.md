@@ -13,3 +13,7 @@ https://norfipc.com/inf/javascript-trucos-efectos-para-paginas-web-blogs.html
 ----------------------
 Paleta de colores usada:
 https://colorhunt.co/palette/273312
+
+----------------------
+Video de como se debería ver:
+https://drive.google.com/file/d/1gnuUgV4ue0IpgUliCT31H7lPgVfpwWHS/view?usp=sharing
